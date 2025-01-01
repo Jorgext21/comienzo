@@ -1,0 +1,17 @@
+header{
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width:120px;
+    }
+    .menu{
+        list-style: none;
+        display: flex;
+        padding: 0;
+        li{
+            padding-right: 5px;
+        }
+    }
+}
