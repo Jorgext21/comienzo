@@ -108,4 +108,18 @@ const reviews = [
     rating: 4,
     comment: 'A powerful story with deep moral lessons.',
   },
-]
+] 
+console.log("Users",users)
+
+
+let bookshtml =''
+
+books.forEach(book => {
+  bookshtml = `<div class="book"><div>Title</div><div>${book.title}</div><div>Author</div><div></div><div>genre</div><div></div><div>year</div><div></div><div>description</div><div></div></div>`
+})
+(y con juegos)
+
+document.getElementsByClassName("books")
+
+games.forEach(game => console.log(game.title))
+
