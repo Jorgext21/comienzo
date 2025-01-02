@@ -4,9 +4,10 @@ header{
     justify-content: space-between;
     align-items: center;
     img{
-        width:120px;
+        width: 120px;
     }
     .menu{
+    
         list-style: none;
         display: flex;
         padding: 0;
