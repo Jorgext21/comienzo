@@ -1,4 +1,4 @@
-const users = [
+ const users = [
   {
     id: 1,
     username: 'booklover123',
@@ -115,11 +115,15 @@ console.log("Users",users)
 let bookshtml =''
 
 books.forEach(book => {
-  bookshtml = `<div class="book"><div>Title</div><div>${book.title}</div><div>Author</div><div></div><div>genre</div><div></div><div>year</div><div></div><div>description</div><div></div></div>`
+  bookshtml = `<div class="book"><div>Title</div><div>${book.title}</div><div>Author</div><div>${book.author}</div><div>genre</div><div>${book.genre}</div><div>year</div><div>${book.year}</div><div>description</div><div>${book.description}</div></div>`
 })
-(y con juegos)
+
 
 document.getElementsByClassName("books")
+let gameshtml = ''
 
-games.forEach(game => console.log(game.title))
+games.forEach(game => {
+  gameshtml =`<div class="game"><div>Title</div><div>${game.title}</div><div>Author</div><div>${game.developer}</div><div>genre</div><div>${game.genre}</div><div>year</div><div>${game.year}</div><div>description</div><div>${game.description}</div></div>`
+})
+document.getElementsByClassName("games")
 
